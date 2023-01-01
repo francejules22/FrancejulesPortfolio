@@ -1,0 +1,127 @@
+
+.about-btn-box{
+    background: var(--color-bg-new);
+    border-radius: 10px;
+}
+
+.about-btn{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background: transparent;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.about-btn-active{
+   background: var(--color-primary);
+}
+
+.about-btn:last-child{
+    border-bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.about-title{
+    color: var(--color-primary);
+}
+
+.about-title-heading{
+    color: var(--color-white);
+}
+
+.about-content-wrapper{
+    background: var(--color-bg-new);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-content h2{
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.about-content p{
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.about-content .connect-para{
+      font-size: .9rem;
+}
+
+.social-links span a i{
+    color: var(--color-primary);
+    cursor: pointer; 
+}
+
+.social-links span a i:hover{
+   color: var(--color-white);
+}
+
+.social-links span{
+    margin-right: 15px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+.about-img{
+    background: var(--color-primary);
+    border-radius: 10px;
+    height: 150px;
+}
+
+.about-img img{
+    border-radius: 10px;
+}
+
+
+/*-------RESPONSIVE-------*/
+@media screen and (max-width: 992px){
+    .about-btn{
+       padding: 10px 25px;
+       font-size: 0.8rem;
+    }
+    
+    .about-btn-box{
+      margin-bottom: 40px;
+    }
+
+    .about-content h2{
+       font-size: 1.2rem;
+    }
+
+    .about-content p{
+        font-size: 0.7rem;
+        line-height: 28px;
+    }
+
+    .about-img{
+        height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 390px){
+    .about-img{
+        height: 60px;
+    }
+
+    .about-content h2{
+        font-size: 0.8rem;
+        padding-left: 5px;
+    }
+    .about-content p{
+        font-size: 0.7rem;
+        padding-left: 5px;
+    }
+
+    .social-links h2{
+        font-size: 0.8rem;
+    }
+}

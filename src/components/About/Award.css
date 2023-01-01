@@ -1,0 +1,45 @@
+
+.single-award{
+    background: var(--color-bg-new);
+    padding: 18px;
+    border-radius: 8px;
+    border-bottom: 5px solid var(--color-primary);
+}
+
+.award-item{
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+.award-title{
+    font-weight: 300;
+    color: var(--color-light);
+    opacity: 90% !important;
+    font-size: 0.9rem;
+}
+
+.award-title span{
+    color: #fff;
+    font-weight: 700;
+}
+
+.award-year{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
+/*--------Responsive--------*/
+@media screen and (max-width: 992px){
+    .award-title{
+        font-size: 0.8rem;
+    }
+    
+    .award-title span{
+        font-size: 0.7rem;
+    }
+
+    .award-year{
+        font-size: 0.7rem;
+    }
+}

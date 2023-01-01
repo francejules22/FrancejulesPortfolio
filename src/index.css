@@ -1,0 +1,174 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*COLOR*/
+:root{
+  --color-bg: #162846;
+  --color-bg-new: hsl(219, 51%, 23%);
+  --color-bg-new-variant: hsl(219, 49%, 22%);
+  --color-bg-variant: rgba(111, 114, 132, 0.5);
+  --color-primary: #0ec7de;
+  --color-primary-variant: #08616d;
+  --color-white: #e3e3e3;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+
+  --transition: all 400ms ease;
+  --container-width-lg: 80%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #162846;
+  line-height: 1.7;
+  color: var(--color-white);
+}
+
+/* ========================GENERAL STYLES===========================*/
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p{
+  color: #fff;
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+a{
+  color: unset;
+  font-family: 'Poppins',  sans-serif;
+}
+
+a:hover{
+  color: unset;
+}
+
+section{
+  margin-top: 8rem;
+}
+
+section > h2, section > h5{
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--primary);
+  margin-bottom: 3rem;
+}
+
+.text-light{
+  color: var(--color-light);
+}
+
+a{
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover{
+  color: var(--color-white);
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.30rem .9rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover{
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary{
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+section, footer{
+  padding: 60px 0px;
+}
+
+/* ========================CUSTOM SCROLL BAR===========================*/
+::-webkit-scrollbar{
+  width: 10px;
+  background: var(--color-bg-new);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: var(--color-light);
+}
+
+
+/* ========================MEDIA QUERRIES (MEDIUM DEVICES)===========================*/
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--container-width-md);
+  }
+  section{
+    margin-top: 6rem;
+  }
+}
+
+/* ========================MEDIA QUERRIES (SMALL DEVICES)===========================*/
+@media screen and (max-width: 600px){
+  .container{
+    width: var(--container-width-sm);
+  }
+  section > h2{
+    margin-top: 2rem;
+  }
+}
+

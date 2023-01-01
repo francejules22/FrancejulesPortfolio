@@ -1,0 +1,50 @@
+
+
+.table{
+    border: none;
+    border-radius: collapse;
+    border: 1px solid var(--color-bg-new);
+    border-radius: 5px;
+}
+
+th,td{
+    padding: 1rem 1rem !important;
+    font-size: 1rem;
+}
+
+thead{
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-weight: 300;
+}
+
+td{
+    font-size: .9rem;
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+tr:nth-child(even){
+    background: var(--color-bg-new);
+}
+
+
+
+
+/*---------Responsive-------*/
+@media screen and (max-width: 992px){
+    th, td{
+        font-size: 0.7rem;
+        padding: 0.7rem;
+
+    }
+}
+
+
+@media screen and (max-width: 390px){
+    th, td{
+        font-size: 0.5rem;
+        padding: 0.5rem;
+
+    }
+}

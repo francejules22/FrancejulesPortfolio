@@ -1,0 +1,138 @@
+
+.hire_btn{
+    width: max-content;
+    display: inline-block;
+    padding: 0.10rem .7rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-white);
+    transition: var(--transition);
+}
+
+.hire_btn:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.hire_btn a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--color-bg);
+}
+
+.hire_btn a:hover{
+    color: var(--color-bg);
+}
+
+
+.contact_btn{
+   width: max-content;
+   display: inline-block;
+   padding: 0.10rem .9rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   color: var(--color-bg);
+   background: var(--color-primary);
+   border: 1px solid var(--color-primary);
+   transition: var(--transition);
+   font-weight: 500;
+}
+
+.contact_btn:hover{
+    color: var(--color-bg);
+    background: var(--color-white);
+    border-color: transparent;
+}
+
+.contact_btn a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--color-bg);
+}
+
+.contact_btn a:hover{
+    color: var(--color-bg);
+}
+
+
+
+
+
+.hero__title span{
+    color: var(--color-primary);
+}
+
+.hero__title{
+    font-weight: 600;
+}
+
+.hero__img{
+    height: 350px;
+    width: 350px;
+    border-radius: 1rem;
+    background: var(--color-primary);
+    margin-left: auto;
+}
+
+.hero__img img{
+    border-radius: 1rem;
+}
+
+.hero__section{
+    padding-top: 150px;
+}
+
+.hero__content p{
+    line-height: 30px;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+
+
+
+/*-------RESPONSIVE-------*/
+@media screen and (max-width: 992px){
+    .hero__img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero__content p{
+        font-size: 0.8rem;
+    }
+
+    .hero__btn button{
+        display: block;
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .hero__img{
+      margin: auto;
+    }
+
+    .hero__content{
+      margin-bottom: 50px;
+    }
+
+    .hero__title{
+      font-size: 1.5rem;
+    }
+
+ 
+}
+
+@media screen and (max-width: 390px){
+    .hero__title{
+        font-size: 1.2rem;
+      }
+
+    .hero__btn button{
+        margin-left: 12px;
+    }
+  
+}
