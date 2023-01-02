@@ -38,7 +38,7 @@ const data_images = [
         iconTwo: 'ri-css3-fill',
         iconThree: 'ri-reactjs-line',
         github: 'https://github.com/francejules22/SnackHack',
-        demo: 'https://francejules22.github.io/myPortfolioWithGit/'
+        demo: 'https://francejules22.github.io/SnackHackApp/'
     },
 
     {
@@ -62,7 +62,7 @@ const data_images = [
         iconTwo: 'ri-css3-fill',
         iconThree: 'ri-reactjs-line',
         github: 'https://github.com/francejules22/Architecture-Website',
-        demo: 'https://francejules22.github.io/myPortfolioWithGit/'
+        demo: 'https://francejules22.github.io/architecture/'
     },
 
     {
