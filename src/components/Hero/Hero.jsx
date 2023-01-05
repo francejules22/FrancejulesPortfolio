@@ -34,7 +34,7 @@ const Hero = () => {
                         <p>Studied in ISAT U (Iloilo Science and Technology University) taking Computer Science Degree, and a passionate self-taught web developer.</p>
 
                         <div className="mt-4 hero__btn d-flex align-items-center gap-4">
-                           <button className="hire_btn"><a href="https://drive.google.com/file/d/1B1yzOqUmDaUuYpv87rQWdJiog7frg_SY/view?usp=sharing"  rel="noreferrer" target="_blank">Resume</a></button> 
+                           <button className="hire_btn"><a href="https://drive.google.com/file/d/1Ay4Aacmc0fyg_UaI-H-CrdpY1Tyc8f3a/view?usp=sharing"  rel="noreferrer" target="_blank">Resume</a></button> 
                            <button className="contact_btn"><a href="#contact">Contact</a></button>
                         </div>
                     </div>

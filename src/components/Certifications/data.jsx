@@ -97,7 +97,7 @@ export const dataDigitalBestSeller = [
     {
       id: 10,
       title: 'Technical Support Fundamentals',
-      description: 'Technical Support Fundamentals an online course authorized by University of Michigan and offered through COURSERA issued in April 2022 with credential ID of NKX6MS9DRTYK',
+      description: 'Technical Support Fundamentals an online course authorized by Google IT Support Professional Certificate  and offered through COURSERA issued in April 2022 with credential ID of NKX6MS9DRTYK',
       credentialURL: 'https://www.coursera.org/account/accomplishments/certificate/NKX6MS9DRTYK',
       linkImg: TechSupportImg
     },
@@ -105,7 +105,7 @@ export const dataDigitalBestSeller = [
     {
       id: 11,
       title: 'Bits and Bytes',
-      description: 'The Bits and Bytes of Computer Networking an online course authorized by University of Michigan and offered through COURSERA issued in April 2022 with credential ID of LHN33PKVBJ6N',
+      description: 'The Bits and Bytes of Computer Networking an online course authorized by Google IT Support Professional Certificate and offered through COURSERA issued in April 2022 with credential ID of LHN33PKVBJ6N',
       credentialURL: 'https://www.coursera.org/account/accomplishments/certificate/LHN33PKVBJ6N',
       linkImg: BitsBytesImg
     },
@@ -113,7 +113,7 @@ export const dataDigitalBestSeller = [
     {
       id: 12,
       title: 'Operating System',
-      description: 'Operating System and You: Becoming a Power User an online course authorized by University of Michigan and offered through COURSERA issued in May 2022 with credential ID of 4QDNX7KFJJ5D',
+      description: 'Operating System and You: Becoming a Power User an online course authorized by Google IT Support Professional Certificate  and offered through COURSERA issued in May 2022 with credential ID of 4QDNX7KFJJ5D',
       credentialURL: 'https://www.coursera.org/account/accomplishments/certificate/4QDNX7KFJJ5D',
       linkImg: OSImg
     },
@@ -121,7 +121,7 @@ export const dataDigitalBestSeller = [
     {
       id: 13,
       title: 'Introduction to Data Analytics',
-      description: 'Introduction to Data Analytics an online course authorized by University of Michigan and offered through COURSERA issued in May 2022 with credential ID of HJLJ2W556H4B',
+      description: 'Introduction to Data Analytics an online course authorized by IBM and offered through COURSERA issued in May 2022 with credential ID of HJLJ2W556H4B',
       credentialURL: 'https://www.coursera.org/account/accomplishments/certificate/HJLJ2W556H4B',
       linkImg: DataAnalyticsImg
     },
