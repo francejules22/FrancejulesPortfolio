@@ -3,8 +3,6 @@ import { Container, Row, Col } from 'reactstrap';
 import './Hero.css';
 import HeroImg from '../../assets/HeroImg.png';
 import { init } from "ityped";
-import {Slide, Fade} from 'react-reveal';
-
 
 const Hero = () => {
     const textRef = useRef()
@@ -21,7 +19,6 @@ const Hero = () => {
         ]
        } )
     }, [])
-
     return (
     <section className="hero__section" id="home">
         <Container>

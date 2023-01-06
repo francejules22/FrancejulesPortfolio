@@ -38,7 +38,7 @@ const About = () => {
 
                         <div className="about-content w-75">
                             <h2>I'm Francis Jules C. Espartero</h2>
-                            <p>My passion for software lies with dreaming up ideas and making them come true with unique interfaces. I learn a lot from the open-source community and technology gives me numbling sensation of excitement to create a better solutions and innovations.</p>
+                            <p>I have strong foundation in HTML5, CSS3, Javascript, JQuery, SASS, Bootstrap and basic knowledge in ReactJS libraries for building user interfaces.I am also skilled in developing and maintaining web applications including designing, integrating APIs, implementing database structures, testing and debugging code.I am thrill and excited to bring my Front-End Development skills to new project and help bring them to successful completion.</p>
                             <div className="social-links">
                                 <h2 className="connect-para mb-2">Connect with me:</h2>
                                 <span><a href="https://www.facebook.com/francisjules.celeste/" rel="noreferrer" target="_blank"><i class="ri-facebook-box-fill"></i></a></span>
