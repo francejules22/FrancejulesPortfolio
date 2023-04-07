@@ -1,3 +1,7 @@
+# Description
+I started to build my own personal website as my own portfolio to showcase my skills and ideas. I am self taught developer who loves to learn and creatively solve problems. I start learning creating website using Wix, Wordpress, HTML, CSS and Javascript with Bootstrap and Figma for the past months. I am seeking experiences so that I can use my learning and I am willing to collaborate with other creative individuals to produce web applications and website using the latest software technologies. Ambitious and excited to work on new projects and other challenging opportunities. I am hoping to explore and expand my experiences in the website technologies.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
